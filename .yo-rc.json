@@ -1,0 +1,10 @@
+{
+  "generator-jhipster-blueprint": {
+    "promptValues": {
+      "githubName": "sayanawsit4",
+      "authorName": "sayan roy",
+      "authorEmail": "sayan.aws.it.4@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
