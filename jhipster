@@ -1,0 +1,5 @@
+npm install -g generator-jhipster
+npm install -g yo
+npm install -g generator-jhipster-testbp
+npm install -g yo@latest
+jhipster --blueprints testbp

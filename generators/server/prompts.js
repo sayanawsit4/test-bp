@@ -5,10 +5,7 @@ module.exports = {
 };
 
 function askForTshirtSizes(meta) {
-    //const choices = [];
     const applicationType = this.applicationType;
-   // const askForTshirtSize = done => {
-
         const prompts = [
             {
                 when: response => applicationType === 'microservice',
@@ -35,29 +32,9 @@ function askForTshirtSizes(meta) {
         ];
 
         if (meta) return PROMPTS; // eslint-disable-line consistent-return
-
         const done = this.async();
-
-        // if (choices.length > 0) {
-
         this.prompt(prompts).then(props => {
-
             this.tshirtSize = props.tShirtSize;
-
-            //askForTshirtSize(done);
             done();
         });
-
-        //  }d
-        //  else {
-        //     done();
-        // }
-
-
-  //  };
-
-
-  
-    //askForTshirtSize(done);
 }
-

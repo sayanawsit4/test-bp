@@ -1,6 +1,1 @@
-TEST    
-
-<%=tshirtSize%>
-<%= baseName %>
-
-${spring-boot.version} 
+A Static File
